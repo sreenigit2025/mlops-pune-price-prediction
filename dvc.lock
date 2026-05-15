@@ -38,7 +38,7 @@ stages:
       size: 71
     - path: model/count_vectorizer.pkl
       hash: md5
-      md5: 0f0d3799d792f1ae3f795b26355c2948
+      md5: 105e7724a6eb58e3272eceb0e29ee469
       size: 47243
     - path: model/feature_cols.pkl
       hash: md5
@@ -82,17 +82,17 @@ stages:
         interval.confidence: 0.95
         lasso.alpha: 0.1
         lasso.max_iter: 10000
-        ridge.alpha: 10
+        ridge.alpha: 10.0
     outs:
     - path: metrics/train_metrics.json
       hash: md5
-      md5: d708a00040dc3efbc7956b8b8ad456a8
-      size: 214
+      md5: 8cbd76ca3d4cc53d64209e09c374437f
+      size: 215
     - path: model/interval_est.pkl
       hash: md5
       md5: 8df3b1b74816fa6eacf4d9d567e0f2dd
       size: 73
     - path: model/property_price_prediction_voting.sav
       hash: md5
-      md5: 0c21d18cf00dcab3dde7851e87a62263
-      size: 5435
+      md5: d3fdbffa8ddbbb7e31e49c1ed7105a50
+      size: 5451
